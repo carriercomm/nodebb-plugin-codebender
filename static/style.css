@@ -4,21 +4,6 @@ iframe.codebender-plugin {
 	width: 100%;
 	margin: 10px 0 10px;
 }
-.codebender-container {
-    position: relative;
-    padding-bottom: 60%;
-    padding-top: 30px; height: 0; overflow: hidden;
-}
- 
-.codebender-container iframe,
-.codebender-container object,
-.codebender-container embed {
-    position: absolute;
-    top: 0;
-    left: 0;
-    width: 100%;
-    height: 100%;
-}
 
 /* Smartphones (landscape) ----------- */
 @media only screen

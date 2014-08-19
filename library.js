@@ -1,7 +1,7 @@
 (function(module) {
 	"use strict";
 	var Codebender = {},
-		embed = '<div class="codebender-container"><iframe class="codebender-plugin" src="https://codebender.cc/embed/$1" allowTransparency="true" frameborder="0"></iframe></div>';
+		embed = '<iframe class="codebender-plugin" src="https://codebender.cc/embed/$1" allowTransparency="true" frameborder="0"></iframe>';
 
 	Codebender.parse = function(postContent, callback) {
 		var	regularUrl = /<a href="(?:https?:\/\/)?(?:www\.)?(?:codebender\.cc)\/(.+)">.+<\/a>/g;
