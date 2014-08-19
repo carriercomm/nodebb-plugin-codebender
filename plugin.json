@@ -1,0 +1,13 @@
+{
+	"id": "nodebb-plugin-codebender",
+	"name": "NodeBB Codebender Plugin",
+	"description": "NodeBB Plugin that allows users to embed code using Codebender ide inline in their posts.",
+	"url": "https://github.com/henrikekblad/nodebb-plugin-codebender",
+	"library": "./library.js",
+	"hooks": [
+		{ "hook": "filter:post.parse", "method": "parse", "callbacked": true, "priority": 6 }
+	],
+	"css": [
+		"static/style.css"
+	]
+}

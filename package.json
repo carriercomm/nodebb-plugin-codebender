@@ -1,0 +1,33 @@
+{
+  "name": "nodebb-plugin-codebender",
+  "version": "0.0.1",
+  "description": "NodeBB Codebender Plugin",
+  "main": "library.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/henrikekblad/nodebb-plugin-codebender"
+  },
+  "keywords": [
+    "nodebb",
+    "plugin",
+    "codebender",
+    "arduino",
+    "c++",
+    "embed"
+  ],
+  "author": {
+    "name": "Henrik Ekblad",
+    "email": "henrik.ekblad@sensnology.com"
+  },
+  "license": "BSD-2-Clause",
+  "bugs": {
+    "url": "https://github.com/henrikekblad/nodebb-plugin-codebender/issues"
+  },
+  "readme": "",
+  "readmeFilename": "README.md",
+  "_id": "nodebb-plugin-codebender@0.0.1",
+  "_from": "nodebb-plugin-codebender@~0.0.1"
+}

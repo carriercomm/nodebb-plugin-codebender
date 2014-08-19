@@ -1,0 +1,73 @@
+iframe.codebender-plugin {
+	border: 0;
+	height: 510px;
+	width: 100%;
+	margin: 10px 0 10px;
+}
+.codebender-container {
+    position: relative;
+    padding-bottom: 56.25%;
+    padding-top: 30px; height: 0; overflow: hidden;
+}
+ 
+.codebender-container iframe,
+.codebender-container object,
+.codebender-container embed {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+}
+
+/* Smartphones (landscape) ----------- */
+@media only screen
+and (max-width : 321px) {
+
+	iframe.codebender-plugin {
+	border: 0;
+	height: 180px;
+	width: 100%;
+	}
+
+}
+
+/* Smartphones (portrait) ----------- */
+@media only screen
+and (max-width : 320px) {
+
+	iframe.codebender-plugin {
+	border: 0;
+	height: 180px;
+	width: 100%;
+	}
+
+}
+
+/* iPads (landscape) ----------- */
+@media only screen
+and (min-device-width : 768px)
+and (max-device-width : 1000px)
+and (orientation : landscape) {
+
+	iframe.codebender-plugin {
+	border: 0;
+	height: 360px;
+	width: 100%;
+	}
+
+}
+
+/* iPads (portrait) ----------- */
+@media only screen
+and (min-device-width : 768px)
+and (max-device-width : 1024px)
+and (orientation : portrait) {
+	
+	iframe.codebender-plugin {
+	border: 0;
+	height: 360px;
+	width: 100%;
+	}
+	
+}
